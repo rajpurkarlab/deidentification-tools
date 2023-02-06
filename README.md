@@ -80,3 +80,9 @@ The dicom elements that are being extracted are in `dicom_extraction/dicom_tags`
         ```
         brew install libmagic
         ```
+
+## Medical Report Deidentification
+Neamatullah et al. has developed a Perl-based de-identification software package for replacing PHI with realistic surrogate information for most free-text medical records. Here is their paper [Automated de-identification of free-text medical records](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/1472-6947-8-32), and you can download the software package from [PhysioNet](https://physionet.org/content/deid/1.1/#files-panel).
+
+## Deidentify DICOM images with burned-in PHI
+Microsoft Presidio has developed a tool, Presidio Image Redactor, that redacts text PHI burned into DICOM medical images. This is their [documentation](https://microsoft.github.io/presidio/image-redactor/) and here is Microsoft Presidio's [github repo](https://github.com/microsoft/presidio). 
