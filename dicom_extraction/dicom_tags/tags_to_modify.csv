@@ -1,0 +1,5 @@
+Module,Group,Element,Keyword,Type,What should be extracted?,Description
+DX|General Study,0008,0020,StudyDate,"2 (Required, Empty if Unknown)",Save year and weekday,
+DX|General Study,0008,0030,StudyTime,"2 (Required, Empty if Unknown)",Save hour of day,
+DX|Patient Study,0010,1010,PatientAge,3 (Optional),Save =90 if > 90),
+,,,PatientBirthDate,,Extract age if PatientAge is not available.,
